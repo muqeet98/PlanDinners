@@ -72,16 +72,83 @@ const styles = StyleSheet.create({
         flexDirection: 'row'
 
       },
-      clmn1:{
-        width: Width *0.2,
-        // borderWidth:2,
-        // borderColor: 'green'
+       
+      colmn1:{
+        width: Width* 0.17,
+      
       },
-      clmn2:{
-        width: Width *0.6,
-        // borderWidth:2,
-        // borderColor: 'green'
+      colmn2:{
+        width: Width* 0.66,
+    
+      },
+      colmn3:{
+        width: Width* 0.17,
+
+        alignItems:'flex-end',
+        justifyContent:'flex-end',
+        paddingRight: 10,
+        paddingBottom:10
+        
+      },
+
+      ButonContainer:{
+        height: Height * 0.195,
+        width:Width* 0.33,
+
+        justifyContent:'center',
+        
+      },
+      itemcontainer:{
+         width: Width* 0.2,
+         height: Height*0.1,
+         borderRadius: 50,
+         backgroundColor: "#fff",
+         justifyContent:'center',
+         alignItems: 'center',
+         alignSelf:'center'
+      },
+      itemInactivecontainer:{
+         width: Width* 0.2,
+         height: Height*0.1,
+         borderRadius: 50,
+         backgroundColor: "#FFFFFF95",
+         justifyContent:'center',
+         alignItems: 'center',
+         alignSelf:'center'
+      },
+      imageactive:{
+         width: 35, 
+         height: 35,
+         tintColor: "#14b1a0"
+      },
+      imageInactive:{
+         width: 35, 
+         height: 35,
+         tintColor: "#000"
+      },
+      tochablestyle:{
+        width: Width* 0.2,
+        height: Height*0.1,
+        borderRadius: 50,
+        // backgroundColor: "#fff",
+        justifyContent:'center',
+        alignItems: 'center',
+        alignSelf:'center',
+
+      },
+      activetext:{
+        alignSelf: 'center', color: 'white', fontSize: RFValue(14), 
+      },
+      inactivetext:{
+        alignSelf: 'center', color: '#ccd3db',fontSize: RFValue(15)
+      },
+
+      textcontainer:{
+        width: Width
       }
+
+
+
 });
 
 export default styles;

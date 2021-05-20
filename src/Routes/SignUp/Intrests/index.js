@@ -94,7 +94,7 @@ class index extends Component {
     await this.incrementCount();
     console.log('Next Next Hai ', this.state.nextPosition);
 
-    this.props.navigation.navigate('Location', {
+    this.props.navigation.navigate('SocialLogin', {
       nextPosition: this.state.nextPosition,
     });
   };

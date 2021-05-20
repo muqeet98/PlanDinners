@@ -10,6 +10,8 @@ import Gender from './src/Routes/SignUp/Gender/index';
 import Location from './src/Routes/SignUp/Location/index';
 import Diet from './src/Routes/SignUp/Diet/index';
 import Intrests from './src/Routes/SignUp/Intrests/index';
+import SocialLogin from './src/Routes/SignUp/SocialLogin/index';
+
 // NAVIGATIONS
 
 const Stack = createStackNavigator();
@@ -48,6 +50,11 @@ export default function App()
 <Stack.Screen
           name="Intrests"
           component={Intrests}
+          options={{ headerShown: false }}
+        />
+<Stack.Screen
+          name="SocialLogin"
+          component={SocialLogin}
           options={{ headerShown: false }}
         />
        
